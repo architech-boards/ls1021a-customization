@@ -1,6 +1,6 @@
-On @board@ the USB-UART port is used for serial console.
+On **@board@** the USB-UART port **J5** is used for serial console.
 
-.. image:: _static/error.jpg
+.. image:: _static/serial-usb.jpg
 
 which you can connect, by means of a mini-USB cable, to your personal computer.
 

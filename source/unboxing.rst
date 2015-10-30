@@ -5,12 +5,12 @@ Unboxing
 
 The **@board@** comes with this box.
 
-.. image:: _static/error.jpg
+.. image:: _static/box-closed.jpg
     :align: center
 
 The package includes:
 
-.. image:: _static/error.jpg
+.. image:: _static/box-opened.jpg
     :align: center
 
 - the board **@board@**
