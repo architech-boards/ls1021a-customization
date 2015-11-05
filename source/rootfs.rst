@@ -2,12 +2,13 @@ Root FS
 =======
 
 An SD card image provides the full system to boot with U-Boot and kernel. To flash an SD card image, run the following
-command:
+commands (after have formatted it in FAT32):
 
 .. host::
 
- | sudo dd if=core-image-minimal-@board-alias@.sdcard of=/dev/sd<partition> bs=1M
-
+ | cp tmp/deploy/images/ls1021atwr/fsl-image-core-ls1021atwr.ext2.gz.u-boot /path/your/sd
+ | cp tmp/deploy/images/ls1021atwr/uImage /path/your/sd
+ | cp tmp/deploy/images/ls1021atwr/uImage-ls1021a-twr.dtb /path/your/sd
 
 .. important::
 

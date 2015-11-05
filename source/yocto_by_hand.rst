@@ -40,7 +40,7 @@ The following steps are necessary for a clean installation:
 
 .. host::
 
- | repo init -u https://github.com/architech-boards/@manifest-repository@.git -b @yocto-version@ -m manifest.xml
+ | repo init -u https://github.com/architech-boards/@manifest-repository@.git -b 2.4.0 -m manifest.xml
 
 7) Download the repositories
 
@@ -67,3 +67,16 @@ When you want your local repositories to be updated, just:
 
  | repo sync
 
+Install Yocto by yourself
+-------------------------
+
+If you really want to download everything by hand, just clone branch *@yocto-version@* of *@meta-layer@*:
+
+.. host::
+
+ | git clone -b @yocto-version@ @meta-layer-remote@/@meta-layer@.git
+
+and have a look at the README file.
+
+To install *Eclipse*, *Qt Creator*, *cross-toolchain*, *NFS*, *TFTP*, etc., read **Yocto**/**OpenEmbedded** documentation, along
+with the other tools one.

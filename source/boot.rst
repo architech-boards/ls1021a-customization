@@ -19,8 +19,6 @@ Connect the mini-USB cable from your PC to @board@ USB connector.
 
 And now proceed by setting up the serial console.
 
-.. include:: serial_console.rst
-
 Give *root* to the login prompt:
 
 .. board::
