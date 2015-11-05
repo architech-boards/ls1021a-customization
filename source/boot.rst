@@ -13,6 +13,8 @@ Set the jumpers **J20** and **J19** pin2-3:
 .. image:: _static/sdcard-jumpers2.jpg
     :align: center
 
+Connect the power supply cable to PWR JACK J3.
+
 Connect the mini-USB cable from your PC to @board@ USB connector.
 
 And now proceed by setting up the serial console.

@@ -48,7 +48,7 @@ At the end of the build process, the image will be saved inside directory:
 
 .. host::
 
- | sudo tar @quickstart-image-tar-options@ /home/@user@/architech_sdk/architech/@board-alias@/yocto/build/tmp/deploy/images/@machine-name@/@quickstart-image@-@machine-name@.@quickstart-image-extension@ -C /home/@user@/architech_sdk/architech/@board-alias@/sysroot/
+ | sudo tar @quickstart-image-tar-options@ /home/@user@/architech_sdk/architech/@board-alias@/yocto/build_ls1021atwr_release/tmp/deploy/images/@machine-name@/@quickstart-image@-@machine-name@.@quickstart-image-extension@ -C /home/@user@/architech_sdk/architech/@board-alias@/sysroot/
 
 .. note::
 

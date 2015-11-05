@@ -20,15 +20,17 @@ the name of the device is by looking to the kernel messages, so:
 
  | sudo dmesg -c
 
-2. connect the mini-USB cable to the board already powered-on
+2. power on the board connecting the power supply cable to PWR JACK J3
 
-3. display the kernel messages
+3. connect the mini-USB cable to the board
+
+4. display the kernel messages
 
 .. host::
 
  | dmesg
 
-3. read the output
+5. read the output
 
 .. host::
 
