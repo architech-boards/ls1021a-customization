@@ -40,7 +40,7 @@ The following steps are necessary for a clean installation:
 
 .. host::
 
- | repo init -u https://github.com/architech-boards/@manifest-repository@.git -b 2.4.0 -m manifest.xml
+ | repo init -u https://github.com/architech-boards/@manifest-repository@.git -b @yocto-version@ -m manifest.xml
 
 7) Download the repositories
 
